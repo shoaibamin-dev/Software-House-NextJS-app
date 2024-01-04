@@ -1,0 +1,27 @@
+.h1{
+    color:#0e366b;
+    font-weight:700;
+    margin: 10px 0px;
+}
+
+.h2{
+    color:#212e3f;
+    letter-spacing: 0.05rem;
+    font-weight:600
+}
+
+.para{
+    border: 3px solid lightgray;
+    border-radius: 15px;
+    padding: 10px;
+    color: darkslateblue;
+    font-style: italic;
+    font-weight: 500;   
+}
+
+.paragraph{
+    color: darkslateblue;
+    width: 90%;
+    margin: 20px auto;
+    
+}

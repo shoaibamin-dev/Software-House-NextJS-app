@@ -1,0 +1,59 @@
+
+.formgroup{
+    margin: 20px 0;
+    width: 95%;
+}
+
+.formgroup input, .formgroup textarea{
+   border-radius: 10px;
+    font-size: 20px;
+    border: 1px solid gray;
+    color: black;
+    background-color: rgb(240, 240, 240);
+}
+
+.formgroup input::placeholder, .formgroup textarea::placeholder{
+   color:rgb(88, 88, 88);
+}
+
+.formgroup:focus{
+  border-color: #0d6efd;
+  box-shadow: none;
+}
+
+
+.checkboxoptions label{
+    padding: 5px;
+}
+
+
+.checkboxoptions input{
+        border: 0.13rem solid #0C356B;
+    border-radius: 6px;
+}
+
+.submitbutton{
+    letter-spacing: 0.1rem;
+}
+
+.custombtn {
+  border-radius: 14px;
+  padding: 15px 25px;
+  font-size: 22px;
+  text-decoration: none;
+  margin: 20px;
+  color: #fff;
+  position: relative;
+  display: inline-block;
+      font-size: 18px;
+}
+
+.custombtn:active {
+  transform: translate(0px, 5px);
+  -webkit-transform: translate(0px, 5px);
+  box-shadow: 0px 1px 0px 0px;
+}
+.graystyle {
+  background-color: #929292;
+  box-shadow: 0px 5px 0px 0px #6b6b6b;
+}

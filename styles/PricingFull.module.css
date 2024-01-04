@@ -1,0 +1,71 @@
+.pricing{
+    color:#0C356B;
+    text-align: center;
+background:white;
+}
+
+
+
+.pricing .header h1{
+    font-size: 3.5rem;    
+        border-bottom: 5px solid;
+border-bottom-color: slategray;
+        display: inline-block;
+    padding-bottom: 4px;
+}
+
+.pricing .header h2{
+    font-size: 2rem;    
+}
+
+.pricing .header{
+background:white
+
+}
+
+.pricing .header>div{
+
+   position: absolute !important;
+    left: 10px;
+}
+
+
+
+.pricing .content h3{
+    text-align: left;
+}
+
+.pricing .content_parent{
+  display: block ;
+    margin: auto ;
+
+}
+
+.pricing .content .pricing_table{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.pricing .content .pricing_table>div{
+    margin:10px !important
+}
+
+.pricing .content .pricing_table>div:first-child, .pricing .content .pricing_table>div:last-child{
+    width: 20rem !important;
+    min-height: 34rem !important;
+}
+
+.pricing .content .pricing_table>div>div:first-child{
+     color:white !important;
+}
+
+.pricing .content .pricing_table>div{
+    border: 2px solid #092344;
+    border-radius: 10px ;
+}
+
+.pricing_table div div:nth-child(2){
+    margin-top: 0px;
+}

@@ -1,0 +1,130 @@
+.footer{
+    color:white;
+    text-align: center;
+background: radial-gradient(circle, rgba(234,234,234,1) 0%, rgba(208,205,205,0.6786889922752809) 95%);
+
+}
+
+.footer ul{
+    list-style: none;
+    text-align: left;
+        font-size: 25px;
+        letter-spacing: 0.02em
+        
+}
+
+.footer .useful_links{
+    text-align: left;
+}
+
+.footer .header h1{
+        font-size: 3.5rem;    
+        border-bottom: 5px solid;
+        border-bottom-color: slategray;
+        display: inline-block;
+        padding-bottom: 4px;
+}
+
+.footer .header h2{
+    font-size: 2rem;    
+}
+
+.footer .header{
+background:white
+
+}
+
+.footer .header>div{
+
+   position: absolute !important;
+    left: 10px;
+}
+
+
+
+.footer .content {
+    background-image: url("../public/images/backgrounds/3_dark.png") !important;
+    height: 100% !important;
+}
+
+.footer .row div{
+  display: block ;
+    margin: auto ;
+
+}
+
+.footer .row div:last-child button{
+    padding: 8px 20px;
+    border: 0;
+    background: #0C356B;
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.footer .row{
+    height: 100%;
+}
+
+.footer .content_parent h1{
+  
+    font-size: 48px;
+    color: white;
+    letter-spacing: 0.02em
+}
+.footer .content_description{
+    color: white;
+    font-size: 22px;
+    text-align: left;
+    margin-left: 35px;
+    letter-spacing: 0.02em
+}
+
+.footer .subscribe_input{
+    font-size: 19px;
+}
+
+.footer .links_container{
+    padding-left: 3%;
+}
+
+.footer .address_section{
+    font-size: 20px;
+    
+    letter-spacing: 0.02em;
+}
+
+.footer .copyright{
+    
+    color: #0C356B;
+    border-top: 3px solid #0C356B;
+    font-size: 22px;
+    font-weight: 500;
+
+
+}
+
+
+
+.footer .links_container, .footer .address_section{
+    padding-top: 50px;
+}
+
+@media screen and (min-width:768px){
+      
+        .footer .links_container, .footer .content_parent, .footer .address_section{
+            height:420px;
+            
+        
+        }  
+}
+
+
+@media screen and (max-width:768px){
+      
+        .footer .links_container, .footer .content_parent, .footer .address_section{
+           padding-left:50px
+            
+        
+        }  
+}

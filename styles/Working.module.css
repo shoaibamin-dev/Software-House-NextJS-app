@@ -1,0 +1,42 @@
+.working{
+    color:#0C356B;
+    text-align: center;
+background:white
+}
+
+
+
+.working .header h1{
+    font-size: 3.5rem;    
+        border-bottom: 5px solid;
+border-bottom-color: slategray;
+        display: inline-block;
+    padding-bottom: 4px;
+}
+
+.working .header h2{
+    font-size: 2rem;    
+}
+
+.working .header{
+background:white
+
+}
+
+.working .header>div{
+
+   position: absolute !important;
+    left: 10px;
+}
+
+
+
+.working .content h3{
+    text-align: left;
+}
+
+.working .content_parent{
+  display: block ;
+    margin: auto ;
+
+}

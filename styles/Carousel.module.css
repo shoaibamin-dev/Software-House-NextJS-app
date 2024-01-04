@@ -1,0 +1,30 @@
+.carousel_container{  
+    width: 100% !important;
+    background-color: #0C356B;
+
+
+    }
+
+.carousel_container img{
+    width: 100% !important;
+    height:500px !important;
+    object-fit: cover !important;
+    
+}
+
+.carousel_container span:first-child{
+        /* border: 2px solid #0C356B; */
+    padding: 20px;
+    color: white !important;
+    border-radius: 10px;
+}
+
+.carousel_container a{
+         opacity: 1;
+}
+
+.carousel_container .Layout_main__cgm7e{
+    width: 100% !important;
+  
+
+}

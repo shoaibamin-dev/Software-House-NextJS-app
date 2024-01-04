@@ -1,0 +1,66 @@
+.success{
+    color:#0C356B;
+    text-align: center;
+
+}
+
+
+
+.success .header h1{
+    font-size: 3.5rem;       
+        border-bottom: 5px solid;
+border-bottom-color: slategray;
+        display: inline-block;
+    padding-bottom: 4px;
+}
+
+.success .header h2{
+    font-size: 2rem;    
+}
+
+
+
+.success .header>div{
+
+   position: absolute !important;
+    left: 10px;
+}
+
+
+.success .content{
+background: radial-gradient(circle, rgba(234,234,234,1) 0%, rgba(208,205,205,0.6786889922752809) 95%);
+
+}
+
+
+.success .content h3{
+    text-align: left;
+}
+
+.success .content_parent{
+  display: block ;
+    margin: auto ;
+
+}
+
+/* .success  .image_wrapper{  
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24) !important;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1) !important;
+} */
+
+.success .content img{
+     border:2px solid #fff !important;
+    
+     
+}
+
+
+.success .carousel_item>div>div{
+    box-shadow: 0 1px 5px rgb(0 0 0 / 15%), 0 1px 13px rgb(0 0 0 / 39%) !important;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1) !important;
+}
+
+.success .content .carousel-container .react-multiple-carousel__arrow--left {
+        left: calc(1% + 1px) !important;
+}
+

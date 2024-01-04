@@ -1,0 +1,62 @@
+.request_quote{
+    color:#0C356B;
+    text-align: center;
+background:white
+}
+
+
+
+.request_quote .header h1{
+    font-size: 3.5rem;    
+        border-bottom: 5px solid;
+border-bottom-color: slategray;
+        display: inline-block;
+    padding-bottom: 4px;
+}
+
+.request_quote .header h2{
+    font-size: 2rem;    
+}
+
+.request_quote .header{
+background:white
+
+}
+
+.request_quote .header>div{
+
+   position: absolute !important;
+    left: 10px;
+}
+
+
+
+.request_quote .content {
+    background-image: url("../public/images/backgrounds/1.PNG") !important;
+    height: 150px !important;
+}
+
+.request_quote .row div{
+  display: block ;
+    margin: auto ;
+
+}
+
+.request_quote .row div:last-child button{
+    padding: 8px 20px;
+    border: 0;
+    background: #0C356B;
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.request_quote .row{
+    height: 100%;
+}
+
+.request_quote .content_parent h1{
+    text-align: center;
+    font-size: 48px;
+    color: white;
+}
