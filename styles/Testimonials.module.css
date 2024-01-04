@@ -1,0 +1,87 @@
+.testimonials{
+    color:#0C356B;
+    text-align: center;
+    box-shadow: -18px 14px 79px -34px rgba(0,0,0,0.53) inset;
+-webkit-box-shadow: -18px 14px 79px -34px rgba(0,0,0,0.53) inset;
+-moz-box-shadow: -18px 14px 79px -34px rgba(0,0,0,0.53) inset;
+
+}
+
+
+
+.testimonials .header h1{
+    font-size: 3rem;       
+        /* border-bottom: 5px solid;
+border-bottom-color: slategray; */
+        display: inline-block;
+    padding-bottom: 4px;
+}
+
+.testimonials .header h2{
+    font-size: 2rem;    
+}
+
+
+
+.testimonials .header>div{
+
+   position: absolute !important;
+    left: 10px;
+}
+
+
+.testimonials .content{
+/* background: radial-gradient(circle, rgba(234,234,234,1) 0%, rgba(208,205,205,0.6786889922752809) 95%); */
+
+}
+
+
+.testimonials .content h3{
+    text-align: left;
+}
+
+.testimonials .content_parent{
+  display: block ;
+    margin: auto ;
+
+}
+
+.testimonials  .image_wrapper{  
+    margin: 0 10px;
+}
+
+.testimonials .content img{
+     border:2px solid #fff !important;
+        border-radius: 100px !important;
+        object-fit: cover !important;
+     
+}
+
+
+.testimonials .carousel_item>div{
+    box-shadow: 0 1px 5px rgb(0 0 0 / 15%), 0 1px 13px rgb(0 0 0 / 39%) !important;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1) !important;
+  padding: 0 10px;
+  
+    border-radius: 30px;
+
+}
+
+.testimonials .content .carousel-container .react-multiple-carousel__arrow--left {
+        left: calc(1% + 1px) !important;
+}
+
+.testimonials .image_wrapper h5,.testimonials .image_wrapper h2{
+    text-align: left !important;
+  
+}
+
+.testimonials .image_wrapper .review{
+      display: block !important;
+    margin: auto !important;
+}
+
+
+
+ /* ----------- */
+

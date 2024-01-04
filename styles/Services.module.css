@@ -1,0 +1,36 @@
+.services{
+    color:#0C356B;
+    text-align: center;
+background: radial-gradient(circle, rgba(234,234,234,1) 0%, rgba(208,205,205,0.6786889922752809) 95%);
+
+}
+
+.services .content img{
+    border: 12px solid rgb(170, 169, 169) !important;
+    border-radius: 115px;
+}
+
+.services .header h1{
+    font-size: 3.5rem;    
+        border-bottom: 5px solid;
+        border-bottom-color: slategray;
+    display: inline-block;
+    padding-bottom: 4px;
+}
+
+.services .header h2{
+    font-size: 2rem;    
+}
+
+.services .header{
+   background: rgb(234,234,234) !important;
+background: linear-gradient(175deg, rgba(234,234,234,1) 0%, rgba(182,182,182,1) 100%) !important;
+
+
+}
+
+.services .header>div{
+
+   position: absolute !important;
+    left: 10px;
+}

@@ -1,0 +1,15 @@
+.card{
+    width: 400px !important;
+    margin: 10px;
+
+}
+
+.parent{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.ul{
+  list-style-type: none;
+}
